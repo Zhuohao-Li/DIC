@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='J-2014.09-2 64-BIT'
+.TITLE '*rc.sp'
+ tplh             tphl             tpd              temper          
+ alter#          
+  1.376e-10        1.373e-10        1.375e-10         70.0000       
+ 1               

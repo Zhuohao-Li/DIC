@@ -1,0 +1,104 @@
+ ****** HSPICE -- J-2014.09-2 64-BIT (Oct 22 2014) win64 ******                 
+  Copyright (C) 2014 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: pulse_pwl.sp                                                      
+  Command line options: -i pulse_pwl.sp -o pulse_pwl.lis
+  lic:  
+  lic: FLEXlm: v10.9.8 
+  lic: USER:   10743                HOSTNAME: LAPTOP-MN412F23 
+  lic: HOSTID: "d8f3bceae1f2 005056c00001 005056c00008 00ff5e5928a2 d8f3bceae1f1
+  daf3bceae1f1 faf3bce
+  lic: Using FLEXlm license file: 
+  lic: 27000@LAPTOP-MN412F23 
+  lic: Checkout 1 hspice 
+  lic: License/Maintenance for hspice will expire on 30-dec-2030/2019.2019 
+  lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@LAPTOP-MN412F23 
+  lic:   
+ Init: read install configuration file: C:\synopsys\Hspice_J-2014.09-2\meta.cfg
+  **info** (pulse_pwl.sp:11) DC voltage reset to initial transient source value              in source        0:vin1                new dc=  0.0000D+00
+  
+1****** HSPICE -- J-2014.09-2 64-BIT (Oct 22 2014) win64 ******                 
+ ******  
+ *pulse_pwl.sp
+
+ ****** element node table
+
+ **warning** the following singular supplies were terminated to 1 meg resistor 
+   supply       node1            node2
+  vin1                    0:v1               defined in subckt 0                     0:0                defined in subckt 0               
+  vin2                    0:v2               defined in subckt 0                     0:0                defined in subckt 0               
+  vin3                    0:v3               defined in subckt 0                     0:0                defined in subckt 0               
+  vin4                    0:v4               defined in subckt 0                     0:0                defined in subckt 0               
+                                                                                      
+ 0                vin1             vin2             vin3             vin4             
+ v1               vin1                                                                
+ v2               vin2                                                                
+ v3               vin3                                                                
+ v4               vin4                                                                
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+ **info** dc convergence successful at Newton-Raphson method 
+1****** HSPICE -- J-2014.09-2 64-BIT (Oct 22 2014) win64 ******                 
+ ******  
+ *pulse_pwl.sp
+
+ ****** operating point information tnom=  25.000 temp=  70.000 ******
+ ****** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:v1      = 700.0000m 0:v2      =   0.      0:v3      =   0.     
+ +0:v4      =   0.     
+
+
+          ***** job concluded
+1****** HSPICE -- J-2014.09-2 64-BIT (Oct 22 2014) win64 ******                 
+ ******  
+ *pulse_pwl.sp
+
+ ****** job statistics summary tnom=  25.000 temp=  70.000 ******
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    16
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       5 # elements   =       8
+  # resistors   =       4 # capacitors =       0 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       4
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.01           1           3
+  transient          0.00        1001          94          47 rev=         0
+  readin             0.01
+  errchk             0.13
+  setup              0.00
+  output             0.00
+
+
+           peak memory used         50.57 megabytes
+           total cpu time            0.15 seconds
+           total elapsed time        0.20 seconds
+           job started at     12:34:51 09/29/2021
+           job ended   at     12:34:51 09/29/2021
+
+
+  lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.04(s)

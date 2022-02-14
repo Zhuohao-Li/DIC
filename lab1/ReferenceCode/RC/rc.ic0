@@ -1,0 +1,15 @@
+* "simulator" "HSPICE" 
+* "version" "J-2014.09-2 64-BIT"
+* "format" "HSP"
+* "rundate" "12:35:08 09/29/2021 "
+* "netlist" "rc.sp "
+* "runtitle" "*rc.sp"
+* time =    0.            
+* temperature =   70.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   0.            
++ out =   0.            
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,17 @@
+* "simulator" "HSPICE" 
+* "version" "J-2014.09-2 64-BIT"
+* "format" "HSP"
+* "rundate" "12:34:51 09/29/2021 "
+* "netlist" "pulse_pwl.sp "
+* "runtitle" "*pulse_pwl.sp"
+* time =    0.            
+* temperature =   70.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ v1 = 700.0000m       
++ v2 =   0.            
++ v3 =   0.            
++ v4 =   0.            
+***   END: Saved Operating Point ***                     
